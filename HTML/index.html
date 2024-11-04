@@ -1,31 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <title>Navbar Example</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careels</title>
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/homepage.css">
+  <link rel="stylesheet" href="../CSS/navbar.css">
+  <link rel="stylesheet" href="../CSS/cover-section.css">
 </head>
+
 <body>
-    <nav class="navbar">
-        <div class="logo">Logo</div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Cars</a>
-                <ul class="dropdown">
-                    <li><a href="#">New Cars</a></li>
-                    <li><a href="#">Used Cars</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Bikes</a>
-                <ul class="dropdown">
-                    <li><a href="#">New Bikes</a></li>
-                    <li><a href="#">Used Bikes</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <script src="script.js"></script>
+  <header>
+    <div class="navbar">
+      <ul>
+        <li>
+          <div class="dropdown">
+            <p class="dropbtn">Used Cars
+              <i class="fa fa-caret-down"></i>
+            </p>
+            <div class="dropdown-content">
+              <a href="">Find used cars for Sale</a>
+              <a href="">Featured used Cars</a>
+              <a href="">Sell your Car</a>
+              <a href="">Used car dealers</a>
+              <a href="">Price Calculator</a>
+              <a href="">CarWheels Certified Cars</a>
+              <a href="">CarWheels Car Inspection</a>
+              <a href="">CarWheels Sell it for me </a>
+              <a href="">Auction sheet Verification</a>
+            </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <p class="dropbtn">New Cars
+              <i class="fa fa-caret-down"></i>
+            </p>
+            <div class="dropdown-content">
+              <a href="">Find New cars </a>
+              <a href="">Car comparisons</a>
+              <a href="">Reviews</a>
+              <a href="">prices</a>
+              <a href="">on road price</a>
+              <a href="">New Car Dealers</a>
+            </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <p class="dropbtn">Bikes
+              <i class="fa fa-caret-down"></i>
+            </p>
+            <div class="dropdown-content">
+              <a href="">Find used Bikes</a>
+              <a href="">Used Bikes Listings</a>
+              <a href="">Featured used Bikes</a>
+              <a href="">Used car dealers</a>
+              <a href="">Sell Your Biker</a>
+            </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <p class="dropbtn">Auto Store
+              <i class="fa fa-caret-down"></i>
+            </p>
+            <div class="dropdown-content">
+              <a href="">Carwheels Autostore</a>
+              <a href="">Find Auto Parts</a>
+              <a href="">Sell Car Parts</a>
+            </div>
+        </li>
+        <li><a href="">Videos</a></li>
+        <li><a href="">Forums</a></li>
+        <li><a href="">Blogs</a></li>
+        <li>
+          <div class="dropdown">
+            <p class="dropbtn">More
+              <i class="fa fa-caret-down"></i>
+            </p>
+            <div class="dropdown-content">
+              <a href=""> Cool Rides</a>
+              <a href=""> Car Import</a>
+              <a href=""> Car Insurance</a>
+              <a href=""> Car Finance</a>
+              <a href=""> MTMIS Pakistan</a>
+              <a href="">DLIMS Pakistan</a>
+              <a href="">Current Petrol Prices</a>
+              <a href="">Carwheels Partner Workshop</a>
+              <a href="">Car Registration</a>
+              <a href="">Car Ownership Transfer</a>
+            </div>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </header>
+
+  <section class="coversec">
+    <form>
+      <div><label for="carmodel">Select :</label><br>
+        <input type="text" name="carmodel" id="car" placeholder="--Car or Model--">
+      </div>
+      <div><label for="city">Select : </label><br>
+        <select name="city" id="city">
+          <option value="your City">--Your City--</option>
+          <option value="Islamabad">Islamabad</option>
+          <option value="Peshawar">Peshawar</option>
+          <option value="Lahore">Lahore</option>
+          <option value="Quetta">Quetta</option>
+          <option value="Karachi">Karachi</option>
+        </select>
+      </div>
+      <div><label for="pricerange">Select :</label><br>
+        <select name="pricerange" id="pricerange">
+          <option value="your Price Range">--Your Price Range--</option>
+          <option value="10 Select">10 lacs</option>
+          <option value="20 Select">20 Select</option>
+          <option value="30 Select">30 Select</option>
+          <option value="40 Select">40 Select</option>
+          <option value="50 Select">50 Select</option>
+        </select>
+      </div>
+      <button>Search Now</button>
+    </form>
+  </section>
+  <section class="sellbuy">
+    <div class="row">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
