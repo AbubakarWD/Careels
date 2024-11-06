@@ -1,0 +1,24 @@
+.offerings
+{
+    border: 1px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+.offers{
+    border: 1px solid rgb(255, 208, 0);
+    display: ;
+
+}
+.offers img{
+    width: 50px;
+    /* display: inline; */
+    border: 1px solid red;
+}
+.offers h5{
+    border: 1px solid rgb(0, 255, 221);
+
+}
+.offers h6{
+    border: 1px solid rgb(4, 0, 255);
+
+}

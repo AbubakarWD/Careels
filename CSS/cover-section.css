@@ -47,16 +47,17 @@ select {
 
 }
 
-.coversec button {
+.Search-button{
     height: 40px;
     width: 120px;
-    margin: 83px auto;
+    /* margin: 100px auto; */
+    margin-top: 59px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
 }
 
-.coversec button:hover {
+.Search-button:hover {
     background-color: rgb(255, 0, 0);
     color: white;
 }
